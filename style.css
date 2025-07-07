@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(194, 239, 248);
+    
+}
+
+.heading {
+    margin: 10px;
+    padding: 15px;
+    background-color: rgb(194, 239, 248);
+    font-size: 20px;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: oblique;
+
+}
+
+
+.container {
+    margin: 20px;
+    padding: 22px;
+    background-color: white;
+    position: sticky;
+    border-radius: 15px;
+
+}
+
+.Navbar>ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style: none;
+    font-size: 17px;
+    position: sticky;
+}
+
+img {
+    margin-left: 30px;
+    margin-right: 10px;
+    display: flex;
+    float: left;
+}
+
+.go {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    font-size:20px;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group2 {
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group1 {
+    justify-content: center;
+    align-items: center;
+}
+#username{
+    font-size: 20px;
+    border-radius: 10px;
+}
+#Password{
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.Log_in {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button{
+    font-size: 25px;
+    border-radius: 10px;
+}
